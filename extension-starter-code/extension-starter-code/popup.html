@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval'; object-src 'self'" />
+    <title>Ask Kursor</title>
+    <link rel="stylesheet" href="popup.css" />
+    
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Ask Kursor</h1>
+    </div>
+    <div class="main">
+      <div id="selected-text"></div>
+      <textarea id="text-input"></textarea>
+      <div class="action-buttons">
+        <button id="copy-button">Copy</button>
+        <button id="share-button">Share</button>
+        <button id="edit-button">Edit</button>
+        <button id="save-button">Save</button>
+      </div>
+    </div>
+    
+  </body>
+  <script src="popup.js"></script>
+</html>
